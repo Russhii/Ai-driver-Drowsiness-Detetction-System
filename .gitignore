@@ -1,0 +1,28 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Test, type-checker, and linter caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated application output
+/logs/alert_log.csv
+/logs/screenshot_*.jpg
+/eval_results.csv
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
